@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "v",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "tricker",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"patterns.sol": "Attacker"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"patterns.sol": {
+			"keccak256": "0x4ec71e986fc37f2ed21aaa84cc8831702a294daa5dcacfe06d69e145437da951",
+			"urls": [
+				"bzz-raw://a8d31747634c0a2f778739065a3ce4871189b79cddb4ad64f50964fd01ccd0d6",
+				"dweb:/ipfs/QmQYB2J98DdQDAzsavVbrGFqZvk3ZvLbN4pi11uaA3JCMV"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,56 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"constructors-and-inheritance-excercise-sol.sol": "Base"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"constructors-and-inheritance-excercise-sol.sol": {
+			"keccak256": "0x724f7e03cf0b3b852717a20b2397ba9f4fbf06733d023b073b35009a152a9885",
+			"urls": [
+				"bzz-raw://aeba6cb03d83b0afb702ac848d1953704cf83a9b2ff079972a3c8d922090f353",
+				"dweb:/ipfs/QmPz281xPucjhQAMTGfTLyLu2k4vJybaKZ1Hehem1xhc4T"
+			]
+		}
+	},
+	"version": 1
+}

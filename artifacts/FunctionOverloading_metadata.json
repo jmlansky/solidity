@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getSum2Result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSum3Result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"overloading.sol": "FunctionOverloading"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"overloading.sol": {
+			"keccak256": "0x714f1f846b33d08c89f02ce5d0e63d1d8cc62cdd95ec765837eb819b43c4d65e",
+			"urls": [
+				"bzz-raw://3d90005b2cc5e6d791ba34394246c23446adb513708b7117ba3b3242bf8e4ea4",
+				"dweb:/ipfs/QmU6giYRANjRo1k2dF46u9rtqb2NJpZwnUKRAWaWpd6v5v"
+			]
+		}
+	},
+	"version": 1
+}

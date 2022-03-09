@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addrOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_addrSpender",
+						"type": "address"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addrOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_addrSpender",
+						"type": "address"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addrOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_addrSpender",
+						"type": "address"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "MappingTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0x3c8cdcf508c592747d8f99fca5a0b1432c0f43ed714f1562f0f71dce540fd7c4",
+			"urls": [
+				"bzz-raw://6901f643e695b2df48ed5baf7b569b47885cd56e852392ce90611f6e15d5c8d2",
+				"dweb:/ipfs/QmScD8sT5L5AVycd1dS8WwkshQWC6DfQT2RZACtkPDg6Gw"
+			]
+		}
+	},
+	"version": 1
+}

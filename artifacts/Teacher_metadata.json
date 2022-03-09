@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"constructors-and-inheritance.sol": "Teacher"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"constructors-and-inheritance.sol": {
+			"keccak256": "0x378476dc97721fa8f0c7fbd15b771e0a45f3dc7ca3051198b7bd82f710a2774b",
+			"urls": [
+				"bzz-raw://cb2c9020e93beabe4915087d3e5fc9ae6af57502fb8fe9b70cf0af8c0f12030f",
+				"dweb:/ipfs/QmPQXpuZmKnSDvuJT35GCYh3Sx9CgfRaX2YR4xHjuH36L9"
+			]
+		}
+	},
+	"version": 1
+}

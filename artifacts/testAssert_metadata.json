@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assertion.sol": "testAssert"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assertion.sol": {
+			"keccak256": "0xe3cfa1b006f7961adc527dee3581a5cd2b21e76f1ac9bfe9cdc6929c47573f90",
+			"urls": [
+				"bzz-raw://a065f205a1a90e2c796e45239cca079bf10d4ff5d8b38ddd0a39aead419d8458",
+				"dweb:/ipfs/QmTHWpQmMn8bFwXua38T8mEQC3HWEKFTivtUtiw75Nr7Zo"
+			]
+		}
+	},
+	"version": 1
+}

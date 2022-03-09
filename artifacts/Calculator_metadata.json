@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getIntegers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"abstract-contracts-test.sol": "Calculator"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"abstract-contracts-test.sol": {
+			"keccak256": "0xb46464f9f5c3e8c94738f491ae612c01224aa17c96af0fc35ea9feaa9d5a8d3d",
+			"urls": [
+				"bzz-raw://eabfec253a5194b8e2d916ca269e68d9b30c9f0e4c7d52dba044567c4be94596",
+				"dweb:/ipfs/QmZgzRphFmqRtbiWmunYfJYwSMDzityux6AmL7BaW4NmsK"
+			]
+		}
+	},
+	"version": 1
+}
